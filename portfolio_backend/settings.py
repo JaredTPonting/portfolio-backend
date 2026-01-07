@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'portfolio_backend.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 
-print("DATABASE_URL =", os.environ.get("DATABASE_URL"))
+# print("DATABASE_URL =", os.environ.get("DATABASE_URL"))
 
 DATABASES = {
     "default": dj_database_url.config(
